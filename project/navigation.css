@@ -1,0 +1,118 @@
+@font-face {
+    font-family: menu;
+    src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: text;
+    src: url(fonts/Limelight-Regular.ttf);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.menu {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background-color: rgba(255, 248, 248, 0.904);
+}
+
+.name{
+    text-decoration: none;
+    color: #432818;
+    font-family: menu;
+    font-size: 3.5vw;
+}
+nav ul li{ 
+    display: inline-block;
+    width: 8vw;
+    padding: 8px ;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    
+
+}
+.menu{
+    background-color: #FFE6A7;
+
+}
+.list{
+     text-decoration: none;
+    color: #99582A;
+    font-size: 1.5vw;
+    font-family: text;
+    
+    
+}
+.name:hover{
+    color:#432818 ;
+    font-size: 3.6vw;
+}
+a:hover{
+    color: #432818;
+    font-size: 1.6vw;
+}
+.menu a {
+  position: relative;
+  text-decoration: none;
+    color: #99582A;
+
+  padding: 5px 0;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+.demo{
+  text-decoration: underline;
+  font-size: 3vw;
+}
+#linkebi{
+   display: flex;
+   flex-direction: row;
+    width: 8vw;
+    padding: 6px ;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+}
+#linkebi div{
+  font-size: 4vw;
+}
+#linkebi div:hover{
+  font-size: 4.5vw;
+}
+h4{
+  text-align: center;
+}

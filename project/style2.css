@@ -1,0 +1,74 @@
+@font-face {
+    font-family: info;
+    src: url(fonts/Federo-Regular.ttf);
+}
+body{
+  background-color: #ffecd1;
+}
+.banner{
+   background-image: url(images/d690f772fb1741dfb49ec6a9b4985907-25141-paris-direct-entry-tickets-to-louvre-museum-with-optional-audio-guide---disneyland--paris-1-day-tickets-05.jpg);
+   background-size: cover;
+  padding: 100px;
+  
+}  
+.banner h1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F0EBD8;
+    padding: 20px;
+    font-size: 3vw;
+    font-family: info;
+}
+.mam{
+  color: #944e20;
+  font-size: 3vw;
+  text-decoration: underline;
+  padding: 3vw;
+}
+.maml{
+  padding-left: 3vw;
+}
+.maml img{
+  border-radius: 30px;
+  box-shadow: 6px 8px 8px black;
+}
+.text{
+  font-size: 1.5vw;
+  font-family: info;
+  text-align: justify;
+  padding: 3vw;
+  width: 75vw;
+}
+
+.mona{
+  padding-right: 3vw;
+  
+}
+.mona img{
+  border-radius: 30px;
+  box-shadow: 6px 8px 8px black;
+}
+.mona p{
+  font-size: 1.5vw;
+  font-family: info;
+  text-align: justify;
+  padding: 2vw;
+  width: 65vw;
+}
+.king {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3vw;
+ 
+}
+.king img{
+   border-radius: 30px;
+  box-shadow: 6px 8px 8px black;
+}
+.king p{
+  font-size: 1.5vw;
+  font-family: info;
+  text-align: justify;
+  padding: 2vw;
+  width: 65vw;
+}

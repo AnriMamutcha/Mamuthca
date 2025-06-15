@@ -1,0 +1,78 @@
+@font-face {
+    font-family: info;
+    src: url(fonts/Federo-Regular.ttf);
+}
+body{
+    background-color: #ffecd1;
+}
+.banner{
+    background-image: url(images/shutterstockRF_1035503722.avif);
+    background-size: cover;
+    padding: 150px;
+    color: #F0EBD8;
+    font-size: 1.7vw;
+    font-family: info;
+    text-align: justify;
+    text-align: center;
+
+}
+.banner h1{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.visit{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.visit h2{
+    font-size: 2vw;
+    font-family: info;
+    color: #3a1a04;
+    text-shadow: 6px 6px 6px black;
+    font-style: italic;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 50px;
+    
+}
+.hours{
+    text-align: center;
+    font-family: info;
+    color: #3a1a04;
+}
+.hours h3{
+    font-size: 3vw;
+}
+.hours h4{
+    font-size: 2vw;
+}
+.hours h5{
+    font-size: 2vw;
+}
+.info img{
+    border-radius: 30px;
+    box-shadow: 6px 8px 6px black;
+}
+.ticket{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    padding: 50px;
+}
+.ticket p{
+    width: 500px;
+    text-align: justify;
+    font-size: 2vw;
+    font-family: info;
+    color: #3a1a04;
+}
+.price h3{
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: info;
+    color: #3a1a04;
+}

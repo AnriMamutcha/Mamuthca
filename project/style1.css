@@ -1,0 +1,104 @@
+@font-face {
+    font-family: text;
+    src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: text2;
+    src: url(fonts/Cinzel-VariableFont_wght.ttf);
+}
+body{
+    background-color: #ffecd1;
+}
+
+.info1{
+    text-align: center;
+    font-size: 3vw;
+    color:  #99582A;
+    font-family: text2;
+    font-style: italic;
+    text-shadow: 6px 6px 6px #241001;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 60px;   
+}
+.history{
+    font-size: 2.5vw;
+    text-align: center;
+    
+    color: #8a7365;
+    font-family: text2;
+   
+}
+.line{
+    color: #99582A;
+    
+}
+.video:hover{
+    width: 800px;
+}
+.info2{
+    padding: 60px;
+    color: #99582A;
+    font-family: text2;
+    font-size: 2vw;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.info3{
+     display: flex;
+    flex-direction: row;
+    gap: 950px;   
+}
+
+.info3 h3:hover{
+    color:#432818 ;
+}
+
+.fotos img{
+    border-radius: 30px;
+}
+.fotos img:hover{
+    box-shadow: 12px 12px 12px black;
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+.text2 a{
+    text-decoration: none;
+    color:#99582A ;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.fotos2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.fotos2 img{
+    border-radius: 30px;
+}
+.fotos2 img:hover{
+    box-shadow: 12px 12px 12px black;
+}
+.fotos2 a{
+    text-decoration: none;
+    color:#99582A ;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.king{
+    font-size: 3vw;
+    color: #432818;
+    text-decoration: underline;
+}
+.last{
+    background-color: #432818;
+}
